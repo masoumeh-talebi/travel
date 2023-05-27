@@ -1,11 +1,11 @@
 import React from 'react'
 import Button from '../UI/Button'
-import TourImg from '.././Cards/images/tourism.jpg'
+import CardGuid from '../Tourism/CardGuid'
 import '../../App.css'
 
 function Tourism() {
   return (
-    <div className='tourism' src={TourImg}>
+    <div className='tourism'>
       <h1 style={{color:"#fff" ,fontSize:'40px'}} > پرتال جامع گردش و سفر </h1>
       <p>پرتال جامع گردش و سفر</p>
       <div className='tourism-box'>
@@ -15,6 +15,7 @@ function Tourism() {
         </Button>
 
       </div>
+      <CardGuid/>
     </div>
   )
 }

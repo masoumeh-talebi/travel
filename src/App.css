@@ -29,6 +29,7 @@
   color:#fff;
   font-size: 26px;
   background-size: cover;
+  background-image: url(./components/Cards/images/tourism.jpg);
 }
 .tourism>p{
   color: #ffffff;

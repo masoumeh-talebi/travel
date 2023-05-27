@@ -49,7 +49,7 @@ useEffect(()=>{
                                 </Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                                <Link to="/tour" className='nav-links' onClick={closeMobileMenu}>
                                     تور
                                 </Link>
                             </li>
