@@ -54,7 +54,7 @@ useEffect(()=>{
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/" className='nav-links-mobile' onClick={closeMobileMenu}>
+                                <Link to="/sign-Up" className='nav-links-mobile' onClick={closeMobileMenu}>
                                     ثبت نام
                                 </Link>
                             </li>
@@ -62,7 +62,7 @@ useEffect(()=>{
                         </ul>
                         {
                             buttonState ?
-                                <Button buttonStyle="btn--outline" to="/">
+                                <Button buttonStyle="btn--outline" to="/sign-up">
                                     ثبت نام
                                 </Button> : null
                         }

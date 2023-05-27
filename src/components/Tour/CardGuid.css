@@ -146,10 +146,14 @@ h1 {
 
 .anchor {
     text-decoration: none;
-    color: #666;
+    color: #fff;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+}
+
+.anchor {
+color: #666;
 }
 
 .tabs-content ul>li .anchor span {
